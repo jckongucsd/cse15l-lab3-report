@@ -52,5 +52,8 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
   
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
+Here is some examples: 
+
+<img width="610" alt="Screen Shot 2023-01-12 at 1 42 53 PM" src="https://user-images.githubusercontent.com/122569310/212187419-3e0640dd-2675-431d-99d4-4e51150e2fa2.png">
 
 
