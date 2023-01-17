@@ -36,7 +36,7 @@ In the following picture, it shows 3 operating systems. Depending on your OS, do
 
 ---
 
-Step 4: Try out some commands!
+## Step 4: Try out some commands!
 
 Try the following commands on your VSCode terminal:
 
