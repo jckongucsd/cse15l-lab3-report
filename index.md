@@ -6,7 +6,7 @@ Hello!
 
 ## Step 1: Set up your CSE15L Account.
 
-  In order to set up your CSE15L Account, click on the link: https://sdacs.ucsd.edu/~icc/index.php 
+  In order to set up your CSE15L Account, click on the link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
   
   After accessing the link, there should be a "New Student" Log in (below the Account Lookup). Following the instructions, use your LAST name and student ID to log in.
   
@@ -18,7 +18,7 @@ Hello!
   ---
 ## Step 2: Installing VSCode
 
-If you have not downloaded VSCode from previous CSE classes before, this is the step. Visit the link: https://code.visualstudio.com/download
+If you have not downloaded VSCode from previous CSE classes before, this is the step. Visit the link: [VSCode](https://code.visualstudio.com/download)
 In the following picture, it shows 3 operating systems. Depending on your OS, download it. 
 
 <img width="1423" alt="Screen Shot 2023-01-12 at 1 35 55 PM" src="https://user-images.githubusercontent.com/122569310/212186326-49e24276-3ffe-41cf-b888-ce5a59be00dc.png">
