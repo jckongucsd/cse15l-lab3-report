@@ -6,7 +6,7 @@ Hello!
 
 ## Step 1: Set up your CSE15L Account.
 
-  In order to set up your CSE15L Account, click on the link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
+  In order to set up your CSE15L Account, click on the link: [CSE15L Account](https://sdacs.ucsd.edu/~icc/index.php)
   
   After accessing the link, there should be a "New Student" Log in (below the Account Lookup). Following the instructions, use your LAST name and student ID to log in.
   
