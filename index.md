@@ -58,14 +58,14 @@ Here is some examples:
 
 <img width="610" alt="Screen Shot 2023-01-12 at 1 42 53 PM" src="https://user-images.githubusercontent.com/122569310/212187419-3e0640dd-2675-431d-99d4-4e51150e2fa2.png">
   
-  Here is the explanation for each of the command:
+  # Here is the explanation for each of the command:
   
   
-cd ~ 
+### cd ~ 
   
 cd ~ returns the working directory back to the home directory.
 
-cd
+### cd
 
 The cd command allows you to move between directories. The cd command takes an argument, usually the name of the folder you want to move to, so the full command is cd your-directory
   
