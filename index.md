@@ -32,10 +32,16 @@ The relevant arguments to this method are:
   
 ![lab3_img1](https://user-images.githubusercontent.com/122569310/215379064-2dbe1405-c33c-4e3c-bea3-87cfe743eba2.png)
 
+(above image is adding the word "hello" to the word bank)
+  
+  
 ![lab_3_img2](https://user-images.githubusercontent.com/122569310/215379058-0c078fcb-bd53-4f45-a5ed-57b066b120ab.png)
+  
+(above image is adding the word "hello world" to the word bank and showing the history of all the words added)
 
 ![lab3_img_code](https://user-images.githubusercontent.com/122569310/215556577-445200ea-5e72-4c57-9072-488685c3f660.png)
 
+  (above image is showing the code behind the web app)
 
 ## Part 2 (Errors & Bugs)
 
