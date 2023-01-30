@@ -1,7 +1,9 @@
-Hello!
 
-# This is my Lab Report Week 3. 
 
+# Hello!, This is my Lab Report Week 3. 
+
+
+## Part 1 
 
 ### Which methods in your code are called?
 
@@ -35,7 +37,7 @@ The relevant arguments to this method are:
 ![lab3_img_code](https://user-images.githubusercontent.com/122569310/215556577-445200ea-5e72-4c57-9072-488685c3f660.png)
 
 
-# Errors
+## Part 2 (Errors & Bugs)
 
 
 reverseInPlace:
@@ -56,3 +58,22 @@ The reversed method fails to initialize the indices to the values of the origina
 
 
 ![lab3_error_img_2](https://user-images.githubusercontent.com/122569310/215555955-c1baed41-82ce-44ec-9202-42d6b0169950.png)
+  
+  
+## Part 3
+  
+I learned that coding bugs can often be caused by small syntax errors or incorrect logic and it is important to carefully review and test code before deployment. Also, Github is a useful tool for collaborating with others on code projects and tracking changes through version control. In addition, I also learned the difference between bugs and symptoms. 
+  
+ Here are some github commands I learned:
+  
+git clone [repository url]: downloads a repository from a remote source to local machine.
+
+git init: initializes an empty Git repository in the current directory.
+
+git add [file name]: stages a file for commit.
+
+git commit -m "[commit message]": creates a commit with a message.
+
+git push: pushes local commits to the remote repository.
+
+git pull: fetches and merges the latest changes from a rem
