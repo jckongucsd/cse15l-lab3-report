@@ -2,7 +2,57 @@ Hello!
 
 # This is my Lab Report Week 3. 
 
+
+### Which methods in your code are called?
+
+The method: handleRequest is called when I enter add-message?s=<String>
+
+  
+### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+The relevant arguments to this method are:
+
+- URI url: this is the URI that is received by the java program
+  
+- Num: this is the current index of the String array wordBank. This value is used to add an element to the String[] wordBank
+
+- String[] wordBank: this is the string array that stores all the user’s input
+
+  
+### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+- Num: with each input, the num variable increases by 1 in order to match the index
+
+- String[] wordBank: this value changes by appending a new string input element into the array. 
+
+  
+  
+  
 ![lab3_img1](https://user-images.githubusercontent.com/122569310/215379064-2dbe1405-c33c-4e3c-bea3-87cfe743eba2.png)
 
-
 ![lab_3_img2](https://user-images.githubusercontent.com/122569310/215379058-0c078fcb-bd53-4f45-a5ed-57b066b120ab.png)
+
+![lab3_img_code](https://user-images.githubusercontent.com/122569310/215556577-445200ea-5e72-4c57-9072-488685c3f660.png)
+
+
+# Errors
+
+
+reverseInPlace:
+Failure Inducing Input: int input2 = { 1,2,3,4,5,6,7,8}
+Expected output: {8,7,6,5,4,3,2,1}
+Actual output: {8,7,6, 5, 5, 6, 7, 8}
+The reverse in place method fails to account for the fact that the array changes as you go on and traverse through it, so once it gets to the midpoint, it will just return the values of the original array. In order to fix this, we need to add an array that will maintain the values of the original for the for loop so that it will reverse the values correctly 
+
+![lab3_error_img_1](https://user-images.githubusercontent.com/122569310/215555942-9340bcb3-bd9d-4170-b3ee-1289b969bc8c.png)
+
+
+
+Reversed: 
+Failure Inducing Input: int input2 = { 1,2,3,4,5,6,7,8}
+Expected output: {8,7,6,5,4,3,2,1}
+Actual output: {0,0,0,0,0,0,0,0}
+The reversed method fails to initialize the indices to the values of the original array in the new array. Instead all the values are zeros. If we want the code to work as expected we should make newArray a copy of arr, then we can leave the rest of the code as is. 
+
+
+![lab3_error_img_2](https://user-images.githubusercontent.com/122569310/215555955-c1baed41-82ce-44ec-9202-42d6b0169950.png)
