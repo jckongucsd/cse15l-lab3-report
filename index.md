@@ -41,9 +41,14 @@ The relevant arguments to this method are:
 
 
 reverseInPlace:
-Failure Inducing Input: int input2 = { 1,2,3,4,5,6,7,8}
-Expected output: {8,7,6,5,4,3,2,1}
-Actual output: {8,7,6, 5, 5, 6, 7, 8}
+Failure Inducing Input: `int input2 = { 1,2,3,4,5,6,7,8}`
+
+  
+Expected output: `{8,7,6,5,4,3,2,1}`
+
+Actual output: `{8,7,6, 5, 5, 6, 7, 8}`
+
+  
 The reverse in place method fails to account for the fact that the array changes as you go on and traverse through it, so once it gets to the midpoint, it will just return the values of the original array. In order to fix this, we need to add an array that will maintain the values of the original for the for loop so that it will reverse the values correctly 
 
 ![lab3_error_img_1](https://user-images.githubusercontent.com/122569310/215555942-9340bcb3-bd9d-4170-b3ee-1289b969bc8c.png)
@@ -51,9 +56,12 @@ The reverse in place method fails to account for the fact that the array changes
 
 
 Reversed: 
-Failure Inducing Input: int input2 = { 1,2,3,4,5,6,7,8}
-Expected output: {8,7,6,5,4,3,2,1}
-Actual output: {0,0,0,0,0,0,0,0}
+Failure Inducing Input: `int input2 = { 1,2,3,4,5,6,7,8}`
+  
+Expected output: `{8,7,6,5,4,3,2,1}`
+
+Actual output: `{0,0,0,0,0,0,0,0}`
+
 The reversed method fails to initialize the indices to the values of the original array in the new array. Instead all the values are zeros. If we want the code to work as expected we should make newArray a copy of arr, then we can leave the rest of the code as is. 
 
 
@@ -66,14 +74,14 @@ I learned that coding bugs can often be caused by small syntax errors or incorre
   
  Here are some github commands I learned:
   
-git clone [repository url]: downloads a repository from a remote source to local machine.
+`git clone [repository url]: downloads a repository from a remote source to local machine.`
 
-git init: initializes an empty Git repository in the current directory.
+`git init: initializes an empty Git repository in the current directory.`
 
-git add [file name]: stages a file for commit.
+`git add [file name]: stages a file for commit.`
 
-git commit -m "[commit message]": creates a commit with a message.
+`git commit -m "[commit message]": creates a commit with a message.`
 
-git push: pushes local commits to the remote repository.
+`git push: pushes local commits to the remote repository.`
 
-git pull: fetches and merges the latest changes from a rem
+`git pull: fetches and merges the latest changes from a rem`
