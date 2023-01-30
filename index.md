@@ -70,24 +70,23 @@ cd
 The cd command allows you to move between directories. The cd command takes an argument, usually the name of the folder you want to move to, so the full command is cd your-directory
   
   
-ls -lat
+### ls -lat
   
 ls -lat command allows you to print out EVERYTHIHNG out in your directory. It is a combination of -l -a -t
 
-ls -a
+### ls -a
 
 ls -a command allows you to list files or directories including hidden files or directories
-  
-  
-ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+   
+### ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
   
 ls <directory> is a command trying to access the directory of another user. However, we cannot do so.. (because of permission). 
   
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+### cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
   
 cp is a command that allows you to copy a file (in this case, hello.txt) from a directory to a home directory
   
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+### cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   
 cat is a command to print out the contents of one or more files on the terminal. In this case, we print out hello.txt in /home/linux/ieng6/cs15lwi23/public directory. 
 
