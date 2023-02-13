@@ -45,26 +45,14 @@ The relevant arguments to this method are:
 
 ## Part 2 (Errors & Bugs)
   
-  
-<img width="348" alt="Screen Shot 2023-02-13 at 1 58 22 PM" src="https://user-images.githubusercontent.com/122569310/218584168-debf8f9b-4903-4e64-bb47-b8b7c4b1aa63.png">
-
-
-reverseInPlace:
-Failure Inducing Input: `int input2 = { 1,2,3,4,5,6,7,8}`
-
-  
-Expected output: `{8,7,6,5,4,3,2,1}`
-
-Actual output: `{8,7,6, 5, 5, 6, 7, 8}`
-
-  
-The reverse in place method fails to account for the fact that the array changes as you go on and traverse through it, so once it gets to the midpoint, it will just return the values of the original array. In order to fix this, we need to add an array that will maintain the values of the original for the for loop so that it will reverse the values correctly 
+reverseInPlace: Fixed by using a temporary int variable n
 
 <img width="348" alt="Screen Shot 2023-02-13 at 1 58 22 PM" src="https://user-images.githubusercontent.com/122569310/218584168-debf8f9b-4903-4e64-bb47-b8b7c4b1aa63.png">
 
 
 
-Reversed: 
+
+## Reversed: 
 Failure Inducing Input: `int input2 = { 1,2,3,4,5}`
   
 Expected output: `{5,4,3,2,1}`
