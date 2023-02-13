@@ -82,7 +82,10 @@ The reversed method fails to initialize the indices to the values of the origina
   ![image](https://user-images.githubusercontent.com/122569310/218591041-fb2bb799-d290-4209-96ab-7ca6eebf7264.png)
 
   
+Now, all tests is passed:
   
+  ![image](https://user-images.githubusercontent.com/122569310/218591359-6d82865a-c790-4109-a77a-0263e2b07f0d.png)
+
 ## Part 3
   
 I learned that coding bugs can often be caused by small syntax errors or incorrect logic and it is important to carefully review and test code before deployment. Also, Github is a useful tool for collaborating with others on code projects and tracking changes through version control. In addition, I also learned the difference between bugs and symptoms. 
