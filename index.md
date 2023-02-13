@@ -65,11 +65,14 @@ The reverse in place method fails to account for the fact that the array changes
 
 
 Reversed: 
-Failure Inducing Input: `int input2 = { 1,2,3,4,5,6,7,8}`
+Failure Inducing Input: `int input2 = { 1,2,3,4,5}`
   
-Expected output: `{8,7,6,5,4,3,2,1}`
+Expected output: `{5,4,3,2,1}`
 
 Actual output: `{0,0,0,0,0,0,0,0}`
+  
+ ![image](https://user-images.githubusercontent.com/122569310/218590372-c1f95931-c247-4844-8907-1ba64dc0a161.png)
+
 
 The reversed method fails to initialize the indices to the values of the original array in the new array. Instead all the values are zeros. If we want the code to work as expected we should make newArray a copy of arr, then we can leave the rest of the code as is. 
 
