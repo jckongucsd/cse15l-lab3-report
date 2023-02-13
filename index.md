@@ -77,6 +77,11 @@ Actual output: `{0,0,0,0,0,0,0,0}`
 The reversed method fails to initialize the indices to the values of the original array in the new array. Instead all the values are zeros. If we want the code to work as expected we should make newArray a copy of arr, then we can leave the rest of the code as is. 
 
   
+### Here is the corrected reverse(int[] arr) function:
+ 
+  ![image](https://user-images.githubusercontent.com/122569310/218591041-fb2bb799-d290-4209-96ab-7ca6eebf7264.png)
+
+  
   
 ## Part 3
   
