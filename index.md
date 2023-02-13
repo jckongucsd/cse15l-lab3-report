@@ -44,6 +44,9 @@ The relevant arguments to this method are:
   (above image is showing the code behind the web app)
 
 ## Part 2 (Errors & Bugs)
+  
+  
+<img width="348" alt="Screen Shot 2023-02-13 at 1 58 22 PM" src="https://user-images.githubusercontent.com/122569310/218584168-debf8f9b-4903-4e64-bb47-b8b7c4b1aa63.png">
 
 
 reverseInPlace:
