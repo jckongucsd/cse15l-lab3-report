@@ -60,7 +60,7 @@ Actual output: `{8,7,6, 5, 5, 6, 7, 8}`
   
 The reverse in place method fails to account for the fact that the array changes as you go on and traverse through it, so once it gets to the midpoint, it will just return the values of the original array. In order to fix this, we need to add an array that will maintain the values of the original for the for loop so that it will reverse the values correctly 
 
-![lab3_error_img_1](https://user-images.githubusercontent.com/122569310/215555942-9340bcb3-bd9d-4170-b3ee-1289b969bc8c.png)
+<img width="348" alt="Screen Shot 2023-02-13 at 1 58 22 PM" src="https://user-images.githubusercontent.com/122569310/218584168-debf8f9b-4903-4e64-bb47-b8b7c4b1aa63.png">
 
 
 
@@ -73,8 +73,6 @@ Actual output: `{0,0,0,0,0,0,0,0}`
 
 The reversed method fails to initialize the indices to the values of the original array in the new array. Instead all the values are zeros. If we want the code to work as expected we should make newArray a copy of arr, then we can leave the rest of the code as is. 
 
-
-![lab3_error_img_2](https://user-images.githubusercontent.com/122569310/215555955-c1baed41-82ce-44ec-9202-42d6b0169950.png)
   
   
 ## Part 3
